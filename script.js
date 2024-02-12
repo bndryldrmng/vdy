@@ -161,7 +161,7 @@ function drawText() {
         context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["eppure eccomi qui ad ottenere l'impossibile", "possibilita di amarti"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["eppure eccomi qui ad ottenere l'impossibile", "possibilitá di amarti"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
             context.fillText("eppure eccomi qui ad ottenere l'impossibile possibilitá di amarti ", canvas.width/2, canvas.height/2);
         }
